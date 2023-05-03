@@ -14,13 +14,13 @@ import Equipo from './components/Equipo/Equipo';
 
 import TablesMesas from './components/Tables/TablesMesas';
 import TablesMesasId from './components/Tables/TablesMesasId';
-import { COntextProvider } from './context/GlobalContext';
+
 
 
 function App() {
   return (
     <div className="h-full  overflow-hidden">
-       <COntextProvider>
+       
       <Navbar />
       <div  >
         <Routes>
@@ -42,7 +42,7 @@ function App() {
 
         </Routes>
       </div>
-      </COntextProvider>
+      
     </div>
   );
 }
